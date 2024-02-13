@@ -1,7 +1,9 @@
-
+#form {
+text-align: center;
+align-items: center;
+}
 .form-field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    
     width: 500px;
 }
