@@ -1,6 +1,6 @@
 // Je dois créer mes variables
 const form = document.querySelector("#signup")
-const usernameEl = document.forms.formValidate.username
+const usernameEl = document.forms.formValidate.userName
 const nameEl = document.forms.formValidate.name
 
 // J'ai besoin d'une fonction qui vérifie si la valeur d'un input est vide
