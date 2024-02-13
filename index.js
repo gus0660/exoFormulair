@@ -1,4 +1,4 @@
-const inputNom = document.querySelector("#inputnom");
+const userName = document.querySelector("#userName");
 const boutonSubmit = document.querySelector("#form");
 
 boutonSubmit.addEventListener('submit', (e) => {
@@ -6,7 +6,7 @@ boutonSubmit.addEventListener('submit', (e) => {
     // console.log(inputNom.value)
     const min = 3;
     const max = 25;
-    if (!isBetween(inputNom.value.length,min, max)) {
+    if (!isBetween(userName.value.length,min, max)) {
         console.log("marche pô")
     };
         // console.log("marche pô")
