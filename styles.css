@@ -1,9 +1,11 @@
 #form {
-text-align: center;
+width: auto;
+height: 100vh;
 align-items: center;
+    
 }
 .form-field {
     text-align: center;
-    
+    background-color: rgb(129, 129, 225);
     width: 500px;
 }
